@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sokoban</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="init()" onkeyup="handleKey(event)">
+    <h1>SOCOBAN</h1>
+    <div class="status">
+        <h2>Score: <span>0</span></h2>
+        <h2>Steps: <span class="steps">0</span></h2>
+    </div>
+    <div class="modal">
+        <h2>✨  GAME OVER  ✨</h2>
+    </div>
+    <button onclick="play()"> Restart </button>
+    <button onclick="createMyBoard()"> Create Board </button>
+    <button onclick="undo()"> Undo </button>
+    <button onclick="reset()"> Reset </button>
+    <div class="create">
+        <h3>🧱  Add 6 wall cells  🧱</h3>
+        <button class="btnStart" onclick="init()"> Start </button>
+    </div>
+
+    <table class="table">
+        <tbody class="board"></tbody>
+    </table>
+
+    <script src="js/utils.js"></script>
+    <script src="js/sokoban.js"></script>
+</body>
+
+</html>

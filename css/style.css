@@ -1,0 +1,59 @@
+body {
+    background-color: #9d5c63; color: #e1e9f5;
+    text-align: center;
+}
+
+.status {
+    position: absolute;
+    left: 235px;
+    top: 7px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 18px;
+    
+}
+/* .modal {
+    display: none;
+} */
+.create {
+    display: none;
+}
+
+.btnStart {
+    display: none;
+    margin: auto;
+}
+
+.table {
+    margin: auto;
+}
+
+.cell {
+    width:40px; 
+    height:40px;
+    text-align: center;
+}
+
+.cell img {
+    width:30px; height:auto;
+}
+
+.floor {
+    background-color: #FEF5EF;
+}
+
+.wall {
+    background-color: #E4BB97;
+}
+
+.target {
+    background: rgb(225,225,231);
+    background: radial-gradient(circle, rgba(225,225,231,1) 26%, rgba(227,15,70,1) 28%, rgba(255,0,36,1) 100%);
+}
+
+
